@@ -13,6 +13,7 @@ body{margin: 0; padding: 0;}
  background: -o-linear-gradient(top, #70af2b, #44892d); 
  /*position: fixed;*/
 }
+.r{font-size: 12px;}
 .text{padding-top: 7%; padding-right: 7%; font-size: 14px; font-family: Arial; text-align: justify;}
 .text_gmail{color: #57000e;}
 .text_vk{color: #02223e;}
