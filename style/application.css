@@ -1,6 +1,6 @@
 body{margin: 0; padding: 0;}
-.content{padding-bottom: 10%;}
-.block_menu{width: 100%; height: 15%; min-height:30px; 
+.content{padding-bottom: 10%; margin-top: 7%; margin-bottom: 2%;}
+.block_menu{z-index: 15; width: 100%; height: 15%; min-height:30px; 
  /* Safari 4-5, Chrome 1-9 */
  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#70af2b), to(#44892d));
  /* Safari 5.1, Chrome 10+ */
@@ -13,13 +13,14 @@ body{margin: 0; padding: 0;}
  background: -o-linear-gradient(top, #70af2b, #44892d); 
  /*position: fixed;*/
 }
+
 .text{padding-top: 7%; padding-right: 7%; font-size: 14px; font-family: Arial; text-align: justify;}
 .text_gmail{color: #57000e;}
 .text_vk{color: #02223e;}
 .text_app{color: #113e02;}
 .footer{position:fixed; bottom:0; height:30px; }
-.block_content{width:90%; min-height: 30px; margin:5% auto; font-family: Arial; color: #ccc; -moz-border-radius:4px; -webkit-border-radius:4px; border-radius:4px;}
-.block_mail{position: relative; z-index: 100;
+.block_content{width:90%; min-height: 30px; margin:-5% auto; font-family: Arial; color: #ccc; -moz-border-radius:4px; -webkit-border-radius:4px; border-radius:4px;}
+.block_mail{position: relative; z-index: 10;
  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#d91319), to(#df0412));
  background: -webkit-linear-gradient(top, #d91319, #df0412);
  background: -moz-linear-gradient(top, #d91319, #df0412);
@@ -40,7 +41,7 @@ body{margin: 0; padding: 0;}
  background: -ms-linear-gradient(top, #519a2b, #24b51a);
  background: -o-linear-gradient(top, #519a2b, #24b51a);
 }       
-.block_text_content{position: relative; width: 82%; min-height: 45px; margin:-10% auto; padding: 2%; -moz-border-radius:4px; -webkit-border-radius:4px; border-radius:4px; z-index: 1; background: #ffffff;}  
+.block_text_content{position: relative; width: 82%; min-height: 45px; margin:0 auto; padding: 2%; -moz-border-radius:4px; -webkit-border-radius:4px; border-radius:4px; z-index: 1; background: #ffffff;}  
 img.user_avatar{position: relative; float:left; margin-top: 8%; margin-left: 3%; margin-right: 5%; display: block;}
 .icon_app{position:relative; float:right; padding-right: 5%;  padding-top: 2%;}
 .arrow{float: right;}
